@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+	background: #ccc;
+	font-family: arial,san-serif;
+	color: #fff;
+}
+
+#articulo1{
+	background: #CE42D7;
+	border-radius: 5px;
+	
+}
+#contenedor{
+
+	
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	width: 80%;
+	border-radius: 10px;
+
+}
+#cabecera{
+	background: red;
+	height: 70px;
+
+	text-align: center;
+	border-radius: 10px;
+}
+
+#info #infotexto,nav{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2em;
+}
+
+
+#infotexto{
+		background: #B4C68A;
+		max-width: 100%;	
+		width: 68%;
+		height: 710px;
+		text-align: center;
+		border-radius: 10px;
+}
+#piePagina2{
+	background: #D7C942;
+	border-radius: 10px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+#articulos{
+
+
+}
+#articulo2{
+	background: #42D754;
+	display: inline-block;
+	margin-top: 1em;
+	width: 80%;
+	border-radius:5px;
+}
+#articulo3{
+	background: #42D754;
+	margin-top: 0.5em;
+	width:80%;
+	display: inline-block;
+	border-radius: 5px;
+}
+#fecha2{
+	background: #DA7ADD;
+	display: inline-block;
+	margin-top: 0.5em;
+	width: 80%;
+	border-radius: 5px;
+}
+#titulo1{
+	background: #D8DD7A;
+	
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	border-radius: 5px;
+}
+#fecha1{
+
+	background: #42D7B5;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 5px;
+	display: inline-block;
+	width: 95%;
+
+}
+main>section>article{
+	background: #53E1DE;
+	border-radius: 10px;
+	height: 210px;
+	margin: 1em 1em 1em 1em;
+
+}
+
+main>section>article>header{
+
+	display: inline-block;
+	margin-top: 0.5em;
+	height: 60px;
+	width: 90%;
+}
+nav{
+	background: #F17013;
+	max-width: 100%;	
+	width: 30%;
+	height: 710px;
+	text-align: center;
+	border-radius: 10px;
+	display:inline-block;
+	margin-right: 0.5em;
+}
+#piePagina{
+
+	background: #EB70CE;
+	text-align: center;
+	height: 45px;
+	border-radius: 10px;
+	margin-top: 1em;
+
+}
+	@media(min-width: 1024px){
+
+}
+@media(max-width: 600px){
+	body{
+		background: #000;
+	}
+	#info #infotexto,nav{
+		display: block;
+	}
+
+	#infotexto{
+		width: 100%;
+	}
+	nav{	
+		width: 100%;
+	}
+
+@media(max-width: 400px){
+	body{
+		background: #fff;
+	}
+}
